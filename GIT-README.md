@@ -1,5 +1,13 @@
 Principais comandos do GIT:
 
+* echo "# 2023-git-iniciando" >> README.md
+* git init
+* git add README.md
+* git commit -m "first commit"
+* git branch -M main
+* git remote add origin https://github.com/albertogomesdasilva/2023-git-iniciando.git
+* git push -u origin main
+
 git --help
 
 git init: Inicializa um novo repositório Git em um diretório.
