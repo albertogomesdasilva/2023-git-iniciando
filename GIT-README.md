@@ -24,6 +24,8 @@ git pull: Atualiza o repositório local com as alterações mais recentes do rep
 
 git push: Envia os commits locais para o repositório remoto.
 
+git branch <nome-da-nova-branch>
+
 git branch: Lista todas as branches existentes no repositório.
 
 git checkout <branch>: Alterna para a branch especificada.
