@@ -61,6 +61,25 @@ git reset --hard <commit>: Redefine completamente o branch para o commit especif
 
 git reset --soft <commit>: Redefine o branch para o commit especificado, mas mantém as alterações não confirmadas no seu diretório de trabalho e no índice do Git. Isso permite que você ajuste o commit antes de confirmar novamente.
 
+git remote -v
+Isso exibirá a lista de repositórios remotos, juntamente com suas URLs.
+
+Identifique o repositório remoto que deseja desconectar. Geralmente, ele tem um nome como "origin".
+
+Execute o comando git remote remove seguido do nome do repositório remoto. Por exemplo, se o repositório remoto for chamado "origin", execute o seguinte comando:
+
+arduino
+Copy code
+git remote remove origin
+Isso remove a referência ao repositório remoto do seu repositório local.
+
+Após executar esse comando, seu repositório local não estará mais vinculado ao repositório remoto específico. Observe que isso não afeta as informações ou histórico do seu repositório local, apenas remove a conexão com o repositório remoto.
+
+
+
+
+
+
 Por exemplo:
 
 css
