@@ -24,7 +24,11 @@ git pull: Atualiza o repositório local com as alterações mais recentes do rep
 
 git push: Envia os commits locais para o repositório remoto.
 
+<<<<<<< HEAD
 git branch <nome-da-nova-branch>: Substitua <nome-da-nova-branch> pelo nome que deseja dar à nova branch.
+=======
+git branch <nome-da-nova-branch>
+
 
 git branch: Lista todas as branches existentes no repositório.
 
